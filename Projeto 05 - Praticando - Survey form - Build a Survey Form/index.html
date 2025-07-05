@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8">
+  <title>Formulário de Registro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <h1 id="title">Formulário de pesquisa torcedor rexpa</h1>
+    <p id="description">Esta pesquisa vai ajudar a gente a te desenvolve melhor</p>
+    <form id="survey-form">
+      <label id="name-label">Nome:
+        <input id="name" type="text" placeholder="Insira o seu nome" required />
+      </label>
+      <label id="email-label">e-mail
+        <input id="email" type="email" placeholder="Insira seu e-mail" required/>
+      </label>
+      <label id="number-label">Idade(opcional)
+        <input id="number" type="number"min="18" max="100" placeholder="Idade"/>
+      </label>
+      <label for="dropdown">Escolha seu time
+        <select id="dropdown" required>
+          <option value="">(Escolha uma opção)</option>
+          <option value="paysandu">Paysandu</option>
+          <option value="remo">Remo</option>
+        </select>
+      </label>
+      <legend>Qual o seu gênero?</legend>
+        <label for="masculino"> 
+          <input id="masculino" class="inline" type="radio" name="escolhaUnica" value="masculino"required checked> Masculino<br>
+        </label>
+        <label for="feminino">
+          <input id="feminino" class="inline" type="radio"name="escolhaUnica" value="feminino" > Feminino<br>
+        </label>
+        <label for="semgenrero">
+          <input id="semgenero" class="inline" type="radio"name="escolhaUnica" value="semgenero"> Prefiro não informar<br>
+        </label>
+        <label>Quais modalidades esportivas do seu time você costuma ir?<br>
+          <div id="modalidade">
+              <input type="checkbox" class="inline" value="futebol" required>Futebol<br>
+              <input type="checkbox" class="inline" value="basquete">Basquete<br>
+              <input type="checkbox" class="inline" value="volei">Vôlei<br>
+              <input type="checkbox" class="inline" value="nautica">Nautica<br>
+              <input type="checkbox" class="inline" value="outros">Outros<br>
+          </div>
+      </label>
+      <label for="descricao">O que te motivou a torcer pelo teu time(opcional)?
+        <textarea id="descricao" placeholder="Diga o que te motivou a escolher o seu time..."></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+</body>
+</html>
+

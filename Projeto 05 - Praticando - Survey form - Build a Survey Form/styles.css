@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #87CEEB, #000080);
+
+}
+
+h1, p {
+    text-align: center; 
+}
+
+form {
+    margin: 0 auto; /* Ao centralizar o <form>, após isso vc tem que defenir a largura, que aí sim vai ficar centralizado*/    
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 4px 0 10px 0;
+    color: #0a0a23;
+    min-height: 1.5em;/* Garante que a altura mínima desses elementos seja pelo menos esse valor*/
+}
+
+select {
+    width: 100%;
+    margin: 4px 0 10px 0;
+    color: #0a0a23;
+    min-height: 2em;/* Garante que a altura mínima desses elementos seja pelo menos esse valor*/
+}
+
+.inline {
+    width: unset; /* Faz remover a regra anterior que defina o width: 100% para todos os <input>*/
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+textarea::placeholder {
+    color: #888;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    min-height: 2em;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+legend {
+    margin: 0 0 4px 0;
+}
+
+#modalidade {
+    margin-top: 4px;
+}
+
