@@ -16,7 +16,8 @@ Os projetos estão organizados em pastas:
 - Projeto 02 - Praticando - Learn Basic CSS by Building a Cafe Menu;
 - Projeto 04 - Praticando - Learn HTML Forms by Building a Registration Form;
 - Projeto 05 - Praticando - Survey form - Build a Survey Form;
-- Projeto 06 - Praticando - Learn the CSS Box Model by Building a Rothko Painting.
+- Projeto 06 - Praticando - Learn the CSS Box Model by Building a Rothko Painting;
+- Projeto 07 - Praticando - Learn CSS Flexbox by Building a Photo Gallery.
 
 ## Tecnologias
 - HTML5
